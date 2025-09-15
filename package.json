@@ -1,0 +1,17 @@
+{
+  "name": "vn-trend-app",
+  "version": "1.0.0",
+  "description": "VN Trend App with Netlify Functions",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo Build step done",
+    "start": "node netlify/functions/fetch-trends.js"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^4.5.0",
+    "node-fetch": "^2.6.7",
+    "newsapi": "^2.4.1",
+    "google-trends-api": "^4.9.2", 
+    "@google/generative-ai": "^0.7.1" 
+  }
+}
