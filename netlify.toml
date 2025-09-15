@@ -1,0 +1,9 @@
+[build]
+  functions = "netlify/functions" 
+  publish = "." 
+
+[[redirects]]
+  from = "/.netlify/builders/trends-builder"
+  to = "/.netlify/builders/trends-builder"
+  status = 200
+  force = true
